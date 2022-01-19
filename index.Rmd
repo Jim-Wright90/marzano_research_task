@@ -1,30 +1,60 @@
 ---
 title: "Research Associate Performance Task"
 author: "Jim Wright, PhD, CCC-SLP"
-date: "1/19/2022"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: spacelab
+    highlight: tango
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## Research Questions for Justice et al. (2015)
 
-## R Markdown
+The study implemented two research questions. 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+  1. Research Question 1: What is the extent to which early childhood special education (ECSE) teachers’ implementation of print-focused read-alouds over an academic year influenced the print knowledge of children with language impairment (LI) in their classrooms, relative to children whose teachers used their typical read-aloud style?
+  2. Research Question 2: What is the extent to which implementation of print-focused read-alouds by both ECSE teachers and children’s’ caregivers affected the early literacy skills of children with LI, relative to implementation only by ECSE teachers?
+  
+## Sample 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+The sample consisted of three cohorts of participants, including teachers, children, and primary caregivers, recruited from ECSE programs in one state across three consecutive academic years. 
 
-```{r cars}
-summary(cars)
-```
+In my opinion, the sampling technique appears to have involved elements of both probability and non-probability sampling methods. The sample represented characteristics of stratified random sampling in that programs were split among the urban-suburban-rural divide of the state and that the majority of classrooms were half-day programs adhering to the state’s 6:6 ratio model. Conversely, I believe the obtained sample represents elements of non-probabilistic convenience and purposive sampling in that district administrators were directly contacted by the researchers for potential participation in the study if they provided ECSE classrooms. This aspect of the sampling technique reduces random sampling and overall external validity of findings. 
 
-## Including Plots
+  * Cohort 1: Teachers
+    + Randomly assigned to one of three study conditions 
+  * Cohort 2: Children with LI (goal to have 4 children with LI per classroom)
+    + Initially enrolled 319 children 
+    + Withdrawal of 28 children reduced sample to 291
+    + 97% with an IEP
+    + 90% receiving speech-language pathology services 
+    + 24% with reported diagnosis (e.g., ASD, ADHD, CP)
+    + Sample was 73% white and male
+  * Cohort 3: Primary caregivers of children with LI
+  
+## Methods 
 
-You can also embed plots, for example:
+The study randomly assigned participants to one of three conditions to be implemented by teachers and caregivers. Overall, the randomization across the three conditions was very balanced:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+  * Regular reading/regular reading (RR/RR) (28 classrooms, 101 children)
+  * Print-focused/regular reading (PF/RR) (27 classrooms, 91 children)
+  * Print-focused/print-focused (PF/PF) (28 classrooms, 99 children)
+  
+The two university sites used to conduct the study allowed for random assignment to study condition, which strengthened the internal validity by randomly assigning classrooms at each site to one of the three conditions. 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+The methods section is very detailed on the procedure of the study for the three cohorts. What I find unique is how the cohorts counterbalance each other to represent counterfactuals for the two research questions, namely is there a relationship between ECSE teacher print-focused read-aloud usage and improvement on the compositive pre/post-test score, and is that relationship strengthened with the additive implementation of caregiver print-focused read-aloud usage?
+
+## Conclusions and Implications 
+
+The primary finding from the study is that students assigned to the PF/RR group obtained significantly higher composite scores than students assigned to the RR/RR group. Conversely, the difference in scores between children from the PF/RR group and PF/PF groups were not significantly different. This finding suggests that ECSE teachers should deploy print-focused reading techniques to boost the literacy skills of children with LI. Further, continued research on caregiver use of print-focused techniques with more stringent protocols for fidelity of implementation is warranted to obtain a better understanding of the relationship between parent use of PF techniques and literacy outcomes for children with LI. 
+
+A secondary finding of the study relates to treatment moderation, specifically that children with greater nonverbal cognitive deficits benefited the most from PF reading techniques (both PF/PF and PF/RR groups) on measures of print knowledge. An implication of this finding is that teachers and caregivers may scaffold their reading support to children of lower cognitive ability. 
+
+## Study Strengths 
+
+The study used a rigorous design with high internal validity and experimenter control. The study procedure was extremely detailed setting up future replicable studies. Statistical analyses were detailed and thorough. I found the addition of treatment moderation variables to be a relative strength of the paper. 
+
+## Study Weaknesses 
+
+I believe the detailed nature of study procedure revealed the primary weakness of the paper, treatment fidelity for the caregiver condition. Fidelity protocols were not as stringent for the caregivers enrolled in the study as they were for teachers, and even with the less rigid fidelity protocol, there were still concerns of consistent caregiver intervention implementation. With that consideration, I wonder if the paper may have been stronger if it narrowed on the first research question to focus specifically on teacher use of PF reading techniques and then used the results of those findings to warrant investigation of caregiver PF use. The other weakness of the study, in my opinion, is the sampling technique to recruit districts and teachers that both offered ECSE classrooms and teachers who wanted to participate in the study. More rigid sampling may strengthen the external validity and generalizability of findings. 
